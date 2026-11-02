@@ -182,7 +182,7 @@ def picture(stem,alt):
 r=picture('hero','欢迎来到我的比奇堡，把好奇心养成每天的小习惯。')+'\n\n'
 r+='<p align="center">\n'
 for name,anchor,label in [('nav-about','about','居民档案：到菠萝屋坐坐'),('nav-projects','projects','蟹堡工坊：看看我的小工具'),('nav-learning','learning','水母田笔记：一起探索新东西')]:
- r+=f'  <a href="#{anchor}"><picture><source media="(max-width: 767px)" srcset="assets/v2/{name}-mobile.svg" /><img src="assets/v2/{name}.svg" width="32%" alt="{label}" /></picture></a>\n'
+ r+=f'  <a href="#user-content-{anchor}"><picture><source media="(max-width: 767px)" srcset="assets/v2/{name}-mobile.svg" /><img src="assets/v2/{name}.svg" width="32%" alt="{label}" /></picture></a>\n'
 r+='</p>\n\n<a name="about" id="about"></a>\n\n'+picture('about','居民档案：一名在读临床医学学生，正在学习编程与人工智能，希望将它运用到未来的临床中。')+'\n\n'
 r+='''<details>
 <summary>读一读我的海底小故事</summary>
@@ -220,7 +220,7 @@ for stem,alt in [('projects-title','蟹堡工坊：把小想法做成能用的�
  r=r.replace(f'<img src="assets/v2/{stem}.svg" width="100%" alt="{alt}" />',picture(stem,alt))
 (OUT/'README.md').write_text(r)
 # GitHub-like local review fixture, not a separately published site.
-preview=r
+preview=r.replace('<a name="', '<a name="user-content-').replace(' id="', ' id="user-content-')
 preview=preview.replace('<summary>读一读我的海底小故事</summary>','<summary>读一读我的海底小故事</summary>')
 # Markdown within details remains readable for this fixture.
 (OUT/'预览.html').write_text('''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>比奇堡主页设计预览</title><style>*{box-sizing:border-box}body{margin:0;background:#f6f8fa;color:#123f46;font:16px -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}.canvas{max-width:1000px;margin:24px auto;padding:26px;border:1px solid #d1d9e0;border-radius:8px;background:#fff}.repo{margin:0 0 20px;color:#57606a;font:14px ui-monospace,monospace}img{max-width:100%;vertical-align:middle}picture{display:inline}p{margin:14px 0}details{margin:14px 0 22px;font-size:14px;color:#587071}summary{cursor:pointer}a{color:inherit}a[name]{display:block;scroll-margin-top:16px}details[open]{line-height:1.9;white-space:pre-line}@media(max-width:767px){.canvas{margin:0;padding:16px;border:0}.repo{font-size:12px}p{margin:12px 0}}</style><main class="canvas"><div class="repo">hmbbjack / README.md</div>'''+preview+'</main></html>')
