@@ -22,9 +22,9 @@
 
 <table>
 <tr>
-<td width="33%" align="center"><h3>🩺 医学课本</h3>临床医学在读<br/>认真打好医学基础</td>
-<td width="33%" align="center"><h3>💻 代码练习</h3>从小工具开始<br/>在动手中学习编程</td>
-<td width="33%" align="center"><h3>🪼 好奇心实验</h3>学习人工智能<br/>探索未来的临床应用</td>
+<td width="33%" align="center"><h3>🩺 医学课本</h3>临床医学在读<br/>打好医学基础</td>
+<td width="33%" align="center"><h3>💻 代码练习</h3>从小工具开始<br/>动手学习编程</td>
+<td width="33%" align="center"><h3>🪼 好奇实验</h3>学习人工智能<br/>探索临床应用</td>
 </tr>
 </table>
 
@@ -34,7 +34,7 @@
 
 **把论文里的纯文本引用，重新连接到文献管理工具。**
 
-这是我的开源小工具：把文档中的纯文本引用转换为 文献管理软件可识别的域代码，支持文档扫描、引用转换与结果核对，让重复的文献处理工作更省心。
+这是我的开源小工具：把文档中的纯文本引用转换为文献管理软件可识别的域代码，支持文档扫描、引用转换与结果核对，让重复的文献处理工作更省心。
 
 [🧰 打开工具仓库](https://github.com/hmbbjack/reverse-zotero-insert) · [📖 阅读使用说明](https://github.com/hmbbjack/reverse-zotero-insert#readme)
 
