@@ -4,9 +4,9 @@
 </picture></p>
 
 <p align="center">
-  <a href="#居民档案"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-about-mobile.svg" /><img src="assets/v2/nav-about.svg" width="32%" alt="居民档案：到菠萝屋坐坐" /></picture></a>
-  <a href="#蟹堡工坊"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-projects-mobile.svg" /><img src="assets/v2/nav-projects.svg" width="32%" alt="蟹堡工坊：看看我的小工具" /></picture></a>
-  <a href="#水母田笔记"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-learning-mobile.svg" /><img src="assets/v2/nav-learning.svg" width="32%" alt="水母田笔记：一起探索新东西" /></picture></a>
+  <a href="#user-content-居民档案"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-about-mobile.svg" /><img src="assets/v2/nav-about.svg" width="32%" alt="居民档案：到菠萝屋坐坐" /></picture></a>
+  <a href="#user-content-蟹堡工坊"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-projects-mobile.svg" /><img src="assets/v2/nav-projects.svg" width="32%" alt="蟹堡工坊：看看我的小工具" /></picture></a>
+  <a href="#user-content-水母田笔记"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-learning-mobile.svg" /><img src="assets/v2/nav-learning.svg" width="32%" alt="水母田笔记：一起探索新东西" /></picture></a>
 </p>
 
 <a name="居民档案"></a>
