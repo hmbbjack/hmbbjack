@@ -4,12 +4,12 @@
 </picture></p>
 
 <p align="center">
-  <a href="#user-content-居民档案"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-about-mobile.svg" /><img src="assets/v2/nav-about.svg" width="32%" alt="居民档案：到菠萝屋坐坐" /></picture></a>
-  <a href="#user-content-蟹堡工坊"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-projects-mobile.svg" /><img src="assets/v2/nav-projects.svg" width="32%" alt="蟹堡工坊：看看我的小工具" /></picture></a>
-  <a href="#user-content-水母田笔记"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-learning-mobile.svg" /><img src="assets/v2/nav-learning.svg" width="32%" alt="水母田笔记：一起探索新东西" /></picture></a>
+  <a href="#about"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-about-mobile.svg" /><img src="assets/v2/nav-about.svg" width="32%" alt="居民档案：到菠萝屋坐坐" /></picture></a>
+  <a href="#projects"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-projects-mobile.svg" /><img src="assets/v2/nav-projects.svg" width="32%" alt="蟹堡工坊：看看我的小工具" /></picture></a>
+  <a href="#learning"><picture><source media="(max-width: 767px)" srcset="assets/v2/nav-learning-mobile.svg" /><img src="assets/v2/nav-learning.svg" width="32%" alt="水母田笔记：一起探索新东西" /></picture></a>
 </p>
 
-<a name="居民档案"></a>
+<a name="about" id="about"></a>
 
 <p><picture>
   <source media="(max-width: 767px)" srcset="assets/v2/about-mobile.svg" />
@@ -29,7 +29,7 @@
 
 </details>
 
-<a name="蟹堡工坊"></a>
+<a name="projects" id="projects"></a>
 
 <p><picture>
   <source media="(max-width: 767px)" srcset="assets/v2/projects-title-mobile.svg" />
@@ -48,7 +48,7 @@
 <a href="https://github.com/hmbbjack/cc-haha"><picture><source media="(max-width: 767px)" srcset="assets/v2/project-agents-mobile.svg" /><img src="assets/v2/project-agents.svg" width="49%" alt="智能体工作台，派生仓库，点击查看" /></picture></a>
 </p>
 
-<a name="水母田笔记"></a>
+<a name="learning" id="learning"></a>
 
 <p><picture>
   <source media="(max-width: 767px)" srcset="assets/v2/learning-title-mobile.svg" />
